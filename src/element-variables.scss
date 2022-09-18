@@ -1,0 +1,20 @@
+/*
+Write your variables here. All available variables can be
+found in element-plus/packages/theme-chalk/src/common/var.scss.
+For example, to overwrite the theme color:
+*/
+$--color-primary: hotpink;
+
+/**
+SCSS 是 Sass 3 引入新的语法，其语法完全兼容 CSS3，并且继承了 Sass 的强大功能。也就是说，任何标准的 CSS3 样式表都是具有相同语义的有效的 SCSS 文件，官方解释。
+传统的css文件缺失变量等概念，导致需要书写的重复的代码很多。我写JS的习惯是遇见重复的代码就要思考是否可以抽出来写成一个可复用的方法，但css中不存在变量函数等概念，这时我发现的一个css的预编译利器——scss。
+
+作者：李梓杰
+链接：https://juejin.cn/post/6844903859010158600
+来源：稀土掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+ */
+/* icon font path, required */
+$--font-path: '~element-plus/lib/theme-chalk/fonts';
+
+@import "~element-plus/packages/theme-chalk/src/index";
