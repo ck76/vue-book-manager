@@ -17,7 +17,7 @@
 
 
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
@@ -27,7 +27,10 @@ npm install
 npm run serve
 ```
 
+
+
 ### Search Book By Keywords using Google Open Api
+
 <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7j05xm1rfj31350u0jud.jpg" alt="image-20221026221822980" style="zoom: 50%;" />
 
 
@@ -37,6 +40,33 @@ npm run serve
 
 ### Add book to record list
 <img src="https://tva1.sinaimg.cn/large/008vxvgGgy1h7j08gk4x3j319u0nk76b.jpg" alt="image-20221026222049553" style="zoom:30%;" />
+
+### Project structure
+
+```vue
+.
+├── App.vue
+├── assets
+│   └── logo.png
+├── components
+│   └── HelloWorld.vue
+├── element-variables.scss
+├── main.js
+├── plugins
+│   └── element.js
+├── router
+│   └── index.js
+├── store
+│   ├── index.js
+│   └── mutation-types.js
+└── views
+    ├── About.vue
+    ├── BookForm.vue
+    ├── BookInfo.vue
+    ├── BookSearch.vue
+    └── Home.vue
+```
+
 
 
 ### Response Data(json)
